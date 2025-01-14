@@ -13,11 +13,14 @@ const FooterComponent = () => {
             <p className="desc">
               Hubungi kami untuk setiap keperluan acara anda
             </p>
-            <div className="no mb-2 mt-4">
-              <Link className="text-decoration-none">
-                <i className="fa-brands fa-whatsapp"></i>
-                <p className="m-0">+62 877-7644-1192</p>
-              </Link>
+            <div className="d-flex align-items-center text-decoration-none no mb-2 mt-4">
+              <i className="fa-brands fa-whatsapp"></i>
+              <a
+                href="https://wa.me/+6287776441192"
+                className="m-0 text-decoration-none"
+              >
+                +62 877-7644-1192
+              </a>
             </div>
             <div className="mail">
               <Link className="text-decoration-none">
