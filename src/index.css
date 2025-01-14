@@ -84,6 +84,27 @@
   background: #278a1d;
 }
 
+.navbar.menu-active {
+  background-color: white;
+  transition: background-color 0.3s ease;
+  z-index: 99;
+}
+
+.navbar.menu-active .nav-link a {
+  color: var(--color-text);
+}
+
+.navbar.menu-active .nav-link .active {
+  background-color: var(--secondary-color);
+  color: #000000;
+}
+
+.navbar.menu-active .contact-us {
+  border: 1px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
 /* HOMEPAGE */
 /* header img {
   width: 100vw;
