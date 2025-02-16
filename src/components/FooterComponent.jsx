@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import logo from "../assets/img/resto/logo resto clean.png";
+// import logo from "../assets/img/resto/logo resto clean.png";
+import logo from "../assets/img/resto/3raja-logo.png";
 
 const FooterComponent = () => {
   return (
@@ -16,7 +17,7 @@ const FooterComponent = () => {
             <div className="d-flex align-items-center text-decoration-none no mb-2 mt-4">
               <i className="fa-brands fa-whatsapp"></i>
               <a
-                href="https://wa.me/+6287776441192"
+                href="https://wa.me/+6287776441192?text=Halo%20Kak,%20saya%20mau%20bertanya%20mengenai%20menu%20di%20Resto%203%20Raja"
                 className="m-0 text-decoration-none"
               >
                 +62 877-7644-1192

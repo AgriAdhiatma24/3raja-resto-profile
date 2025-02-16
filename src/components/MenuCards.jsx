@@ -16,7 +16,7 @@ const MenuCards = ({ title, price, items, ...aosProps }) => {
           </ListGroup>
         </div>
         <Card.Body>
-          <Card.Link href="https://wa.me/+6287776441192">
+          <Card.Link href="https://wa.me/+6287776441192?text=Halo%20Kak,%20saya%20mau%20bertanya%20mengenai%20menu%20di%20Resto%203%20Raja">
             <i className="fa-brands fa-whatsapp"></i>
           </Card.Link>
         </Card.Body>

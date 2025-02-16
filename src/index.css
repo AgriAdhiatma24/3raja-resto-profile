@@ -17,6 +17,19 @@
   --navbar-color-text: #000000;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  height: auto; /* Or a specific height */
+  max-height: 100%;
+}
+
+.logo-resto {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Ensures the full image is visible */
+}
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -25,10 +38,9 @@
   animation-duration: 1s;
 }
 
-.navbar a img {
-  width: 137px;
-  height: 50px;
-  object-fit: cover;
+.navbar .logo img {
+  height: 4rem;
+  object-fit: contain;
 }
 
 .navbar .nav-link a {
@@ -329,6 +341,10 @@ menu-page .row:nth-child(4) h5 {
   line-height: 1.5;
 }
 
+.menu-page .row:nth-child(3) {
+  padding-top: 150px;
+}
+
 .menu-page .facility-box {
   border: 2px solid var(--secondary-color);
   border-radius: 15px;
@@ -540,6 +556,11 @@ menu-page .row:nth-child(4) h5 {
   min-height: 60vh;
 }
 
+.footer .row img {
+  height: 4rem;
+  object-fit: contain;
+}
+
 .footer .row:nth-child(1) .col:nth-child(1) h3 {
   color: var(--color-text);
 }
@@ -624,4 +645,27 @@ menu-page .row:nth-child(4) h5 {
 .terms-page .terms p {
   line-height: 2;
   text-align: justify;
+}
+
+.menu-daily .daily-menu {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.menu-daily .daily-menu img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Tablet and desktop screens */
+@media (min-width: 768px) {
+  .menu-daily .daily-menu {
+    flex-direction: row;
+  }
+
+  .menu-daily .daily-menu img {
+    width: 32%; /* Adjust this to fit 3 images side-by-side without overflowing */
+  }
 }

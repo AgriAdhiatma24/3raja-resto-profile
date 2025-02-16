@@ -1,8 +1,10 @@
 import { Col, Container, Row } from "react-bootstrap";
 import MenuCards from "../components/MenuCards";
 import { completeMenus } from "../data";
+import { useNavigate } from "react-router-dom";
 
 const FoodMenu = () => {
+  let navigate = useNavigate();
   return (
     <div className="menu-page w-100 min-vh-100">
       <Container>
@@ -27,6 +29,25 @@ const FoodMenu = () => {
             />
           ))}
         </Row>
+
+        <Row className="menu-header">
+          <Col>
+            <h1 className="text-center fw-bold">Menu Harian Resto 3 Raja</h1>
+            <p className="text-center">Lihat Juga Menu Harian Kami</p>
+          </Col>
+        </Row>
+        <Col
+          className="text-center pt-3"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <button
+            className="btn btn-success rounded-4 btn-lg"
+            onClick={() => navigate("/dailymenu")}
+          >
+            Menu Harian<i className="fa-solid fa-chevron-right ms-2"></i>
+          </button>
+        </Col>
         <Row className="facility-box">
           <div className="facility">
             <h6>Fasilitas: </h6>
@@ -81,6 +102,26 @@ const FoodMenu = () => {
           </div>
         </Row>
       </Container>
+      {/* <Container>
+        <Row className="menu-header">
+          <Col>
+            <h1 className="text-center fw-bold">Menu Harian Resto 3 Raja</h1>
+            <p className="text-center">Lihat Juga Menu Harian Kami</p>
+          </Col>
+        </Row>
+        <Col
+          className="text-center pt-5"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <button
+            className="btn btn-success rounded-4 btn-lg"
+            onClick={() => navigate("/dailymenu")}
+          >
+            Menu Harian<i className="fa-solid fa-chevron-right ms-2"></i>
+          </button>
+        </Col>
+      </Container> */}
     </div>
   );
 };

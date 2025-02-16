@@ -6,6 +6,7 @@ import FooterComponent from "./components/FooterComponent";
 import WeddingPage from "./pages/WeddingPage";
 import TermsConditionPage from "./pages/TermsConditionPage";
 import Gallery from "./pages/Gallery";
+import DailyMenu from "./pages/DailyMenu";
 
 function App() {
   return (
@@ -17,9 +18,9 @@ function App() {
         <Route path="/wedding" element={<WeddingPage />} />
         <Route path="/termsandcondition" element={<TermsConditionPage />} />
         <Route path="gallery" element={<Gallery />} />
+        <Route path="/dailymenu" element={<DailyMenu />} />
       </Routes>
       <FooterComponent />
-      {/* <div className="empty"></div> */}
     </>
   );
 }

@@ -2,7 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { navLinks } from "../data";
 import { NavLink } from "react-router-dom";
-import logo from "../assets/img/resto/logo resto clean.png";
+// import logo from "../assets/img/resto/logo resto clean.png";
+import logo from "../assets/img/resto/3raja-logo.png";
 
 const NavbarComponent = () => {
   const [changeColor, setChangeColor] = useState(false);

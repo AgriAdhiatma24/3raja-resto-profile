@@ -30,7 +30,7 @@ export const foodMenus = [
   {
     id: 1,
     title: "Buffet A",
-    price: "Rp. 30.000",
+    price: "Rp. 25.000",
     items: [
       "Nasi Putih",
       "Pecel / Urap / Trancam / Sop",
@@ -45,7 +45,7 @@ export const foodMenus = [
   {
     id: 2,
     title: "Buffet B",
-    price: "Rp. 35.000",
+    price: "Rp. 32.000",
     items: [
       "Nasi Putih",
       "Sup Sosis / Rolade / Kombinasi",
@@ -61,7 +61,7 @@ export const foodMenus = [
   {
     id: 3,
     title: "Buffet C",
-    price: "Rp. 38.500",
+    price: "Rp. 35.000",
     items: [
       "Nasi Putih",
       "Sup Sosis / Rolade / Kombinasi",
@@ -80,7 +80,7 @@ export const completeMenus = [
   {
     id: 1,
     title: "Buffet A",
-    price: "Rp. 30.000",
+    price: "Rp. 25.000",
     items: [
       "Nasi Putih",
       "Pecel / Urap / Trancam / Sop",
@@ -95,7 +95,7 @@ export const completeMenus = [
   {
     id: 2,
     title: "Buffet B",
-    price: "Rp. 35.000",
+    price: "Rp. 32.000",
     items: [
       "Nasi Putih",
       "Sup Sosis / Rolade / Kombinasi",
@@ -111,7 +111,7 @@ export const completeMenus = [
   {
     id: 3,
     title: "Buffet C",
-    price: "Rp. 38.500",
+    price: "Rp. 35.000",
     items: [
       "Nasi Putih",
       "Sup Sosis / Rolade / Kombinasi",
@@ -127,13 +127,13 @@ export const completeMenus = [
   {
     id: 4,
     title: "Buffet D",
-    price: "Rp. 42.500",
+    price: "Rp. 38.000",
     items: [
       "Nasi Putih",
       "Sup Sosis / Rolade / Kombinasi",
       "Ayam Goreng / Ayam Rica / Ayam Lada Hitam",
       "Ati Ampela Cabe Ijo / Sambel Goreng Ati",
-      "Capcay / Mie Goreng / Soon",
+      "Capcay / Mie Goreng / Soon / Bihun",
       "Kerupuk",
       "Buah Potong",
       "Teh",
@@ -144,52 +144,52 @@ export const completeMenus = [
   {
     id: 5,
     title: "Buffet E",
-    price: "Rp. 48.000",
+    price: "Rp. 46.000",
     items: [
       "Nasi Putih",
       "Sup Sosis / Rolade / Sup Jagung",
-      "Ayam Goreng / Bakar / Rica / Tongseng",
-      "Daging Sapi Cabe Ijo / Daging Sapi Lada Hitam / Sambel Goreng Kreni",
-      "Capcay / Mie Goreng / Soon",
+      "Ayam Goreng / Bakar / Lada Hitam / Asam Manis",
+      "Daging Sapi Cabe Ijo / Lada Hitam / Sambel Goreng Kreni",
+      "Capcay / Mie Goreng / Soon / Bihun",
       "Kerupuk",
       "Buah Potong",
       "Teh",
-      "Infused Water / Es Teh Lemon",
+      "Infused Water / Soft Drink",
     ],
     delay: "200",
   },
   {
     id: 6,
     title: "Buffet F",
-    price: "Rp. 52.000",
+    price: "Rp. 50.000",
     items: [
       "Nasi Putih",
       "Sup Sosis / Rolade / Sup Jagung",
-      "Ayam Lada Hitam / Asam Manis / Saos Mentega / Rica / Gurami Asam Manis",
+      "Ayam/Gurami (Lada Hitam / Asam Manis / Asam Manis)",
       "Daging Sapi Cabe Ijo / Daging Sapi Lada Hitam / Sambel Goreng Kreni",
-      "Capcay / Mie Goreng / Soon",
+      "Capcay / Mie Goreng / Soon / Bihun",
       "Kerupuk",
       "Buah Potong",
       "Teh",
-      "Infused Water / Es Teh Lemon",
+      "Infused Water / Soft Drink",
     ],
     delay: "400",
   },
   {
     id: 7,
     title: "Buffet G",
-    price: "Rp. 59.000",
+    price: "Rp. 55.000",
     items: [
       "Nasi Putih",
       "Sup Sosis / Rolade / Sup Jagung",
       "Gurami Fillet / Asam Manis / Acar Kuning",
-      "Ayam Goreng / Lada Hitam / Rica ",
-      "Daging Sapi Cabe Ijo / Daging Sapi Lada Hitam / Sambel Goreng Kreni",
-      "Capcay / Mie Goreng / Soon",
+      "Ayam Goreng /Fillet / Lada Hitam / Rica ",
+      "Daging Sapi Cabe Ijo / Lada Hitam / Sambel Goreng Kreni",
+      "Capcay / Mie Goreng / Soon / Bihun",
       "Kerupuk",
       "Buah Potong",
       "Teh",
-      "Infused Water / Es Teh Lemon",
+      "Infused Water / Soft Drink",
     ],
     delay: "200",
   },
