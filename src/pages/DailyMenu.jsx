@@ -6,9 +6,9 @@ const DailyMenu = () => {
   return (
     <div className="menu-daily">
       <div className="daily-menu w-100">
-        <img src={menu1} alt="menu-1" />
-        <img src={menu2} alt="menu-2" />
-        <img src={menu3} alt="menu-3" />
+        <img src={menu1} alt="menu-1" loading="lazy" />
+        <img src={menu2} alt="menu-2" loading="lazy" />
+        <img src={menu3} alt="menu-3" loading="lazy" />
       </div>
     </div>
   );

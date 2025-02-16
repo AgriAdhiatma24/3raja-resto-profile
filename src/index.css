@@ -43,6 +43,20 @@
   object-fit: contain;
 }
 
+/* Medium screens (tablets) */
+@media (max-width: 768px) {
+  .navbar .logo img {
+    height: 3rem;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 480px) {
+  .navbar .logo img {
+    height: 2.5rem;
+  }
+}
+
 .navbar .nav-link a {
   padding: 5px 10px;
   font-weight: 500;
@@ -130,6 +144,16 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.homepage::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  background-image: url("./assets/img/resto/resto-exterior.jpg");
 }
 
 .custom-font {
@@ -382,6 +406,16 @@ menu-page .row:nth-child(4) h5 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.wedding::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  background-image: url("./assets/img/wedding/wedding-pic.jpg");
 }
 
 .wedding .header-box h1 {
