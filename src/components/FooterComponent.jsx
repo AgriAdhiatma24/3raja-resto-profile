@@ -34,6 +34,7 @@ const FooterComponent = () => {
             <h5 className="fw-bold">Menu</h5>
             <Link to="/">Home</Link>
             <Link to="menu">Menu</Link>
+            <Link to="nasbox-bisnis">Nasi Box</Link>
             <Link to="gallery">Galeri</Link>
             <Link to="wedding">Wedding</Link>
             <Link to="termsandcondition">Syarat & Ketentuan</Link>

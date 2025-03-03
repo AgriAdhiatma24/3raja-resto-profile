@@ -1,21 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
-    <link rel="icon" type="image/svg+xml" href="/public/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Resto 3 Raja menyediakan venue luas dan nyaman, serta layanan catering dan nasi box premium untuk berbagai acara."
+    />
+    <meta
+      name="keywords"
+      content="resto, venue pernikahan, catering, nasi box, Resto 3 Raja, venue, intimate wedding, wedding yogyakarta, soto, arisan, gathering"
+    />
+    <meta name="author" content="Resto 3 Raja" />
+
+    <!-- Open Graph Meta (Untuk preview di WhatsApp, Facebook, dll.) -->
+    <meta property="og:title" content="Resto 3 Raja | Venue & Catering" />
+    <meta
+      property="og:description"
+      content="Venue terbaik dan catering nasi box berkualitas untuk acara spesial Anda."
+    />
+    <meta property="og:image" content="/assets/img/resto/resto-exterior.jpg" />
+    <meta property="og:url" content="https://resto3raja.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+
+    <!-- Schema Markup for Organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "url": "https://www.resto3raja.com",
+        "logo": "https://www.resto3raja.com/logo.png"
+      }
+    </script>
+
+    <!-- Preload Fonts -->
+    <link
+      rel="preload"
+      href="/assets/font/JAWAPALSU.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+
+    <!-- Preload Important Images -->
     <link
       rel="preload"
       as="image"
-      href="src/assets/img/resto/resto-exterior.jpg"
+      href="/assets/img/resto/resto-exterior.jpg"
     />
-    <link rel="preload" as="image" href="src/assets/img/resto/3raja-logo.png" />
-    <link rel="preload" as="image" href="src/assets/img/daily-menu/menu1.png" />
-    <link rel="preload" as="image" href="src/assets/img/daily-menu/menu2.png" />
-    <link rel="preload" as="image" href="src/assets/img/daily-menu/menu3.png" />
+    <link rel="preload" as="image" href="/assets/img/resto/3raja-logo.png" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Font Awsome CDN -->
+    <!-- Font Awesome CDN -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
@@ -23,14 +63,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      rel="preload"
-      href="./src/assets/font/JAWAPALSU.TTF"
-      as="font"
-      type="font/ttf"
-      crossorigin="anonymous"
-    />
-    <title>Resto 3 Raja | Partner Acara Anda</title>
+
+    <title>Resto 3 Raja | Venue & Catering</title>
   </head>
   <body>
     <div id="root"></div>
