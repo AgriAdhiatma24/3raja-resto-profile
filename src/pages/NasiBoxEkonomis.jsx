@@ -44,13 +44,13 @@ const NasiBoxEkonomis = () => {
           data-aos-duration="1000"
         >
           <button
-            className="btn btn-success rounded-4 btn-lg me-5"
+            className="btn btn-success rounded-4 btn-lg me-5 d-block w-100 mb-3"
             onClick={() => navigate("/nasbox-bisnis")}
           >
             NasBox Bisnis<i className="fa-solid fa-chevron-right ms-2"></i>
           </button>
           <button
-            className="btn btn-success rounded-4 btn-lg"
+            className="btn btn-success rounded-4 btn-lg d-block w-100"
             onClick={() => navigate("/nasbox-premium")}
           >
             NasBox Premium<i className="fa-solid fa-chevron-right ms-2"></i>
